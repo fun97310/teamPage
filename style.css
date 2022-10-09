@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+
+/*dev in mobile first*/ 
+h1, h3{
+  font-family: 'PT Serif';
+}
+
+h2, p{
+  font-family: 'Poppins';
+}
+@media (min-width: 700px){
+  .presentation-text{
+    margin-bottom: 5%;
+    display: flex;
+  justify-content: space-around;
+  }
+} 
+
+@media (min-width: 700px){
+  .big-screen-utilities{
+    width: 36%;
+    font-size: 18px;
+  margin-top: 10px;
+  }
+}
+
+.img-presentation{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.conteneur{
+  width: 43%;
+  margin: 2.5px 0 50px 2.5px;
+}
+@media (min-width: 700px){
+  .conteneur{
+    width: 19%;
+    margin:0 5% 0 5%;
+  }
+}
+.style{
+  display: flex;
+  justify-content: center; 
+}
+img{
+  height: auto;
+  width: 10rem;
+}
+
+
+h3{
+  writing-mode: vertical-rl;
+  position: relative;
+  font-size: 45%;
+  text-transform: uppercase;
+}
+.nom{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+.img2, .img4, .img6{
+  position: relative;
+  top: 70px;
+}
+@media (min-width: 700px){
+  .img5{
+    position: relative;
+    top: 140px;
+  }
+}
+
+footer{
+  color: grey;
+  text-align: center;
+  margin-top: 20%;
+  
+}
+
