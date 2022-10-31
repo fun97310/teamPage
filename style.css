@@ -26,8 +26,12 @@ h2, p{
   .big-screen-utilities{
     width: 36%;
     font-size: 18px;
-  margin-top: 10px;
+    margin-top: 10px;
   }
+}
+
+.big-screen-utilities p{
+  margin-bottom: 50px;
 }
 
 .img-presentation{
@@ -36,7 +40,7 @@ h2, p{
   justify-content: space-around;
 }
 .conteneur{
-  width: 43%;
+  width: 40%;
   margin: 2.5px 0 50px 2.5px;
 }
 @media (min-width: 700px){
@@ -51,7 +55,7 @@ h2, p{
 }
 img{
   height: auto;
-  width: 10rem;
+  width: /*10rem*/ 100%;
 }
 
 
